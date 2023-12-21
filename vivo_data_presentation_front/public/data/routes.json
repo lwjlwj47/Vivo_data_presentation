@@ -161,7 +161,16 @@
                 "label": "模型预测",
                 "icon": "PieChart",
                 "path": "/other/charts",
-                "component": "/other/page-chart"
+                "component": "/other/page-chart",
+                "children": [
+                    {
+                        "id": "2-1-1",
+                        "label": "模型",
+                        "icon": "Edit",
+                        "path": "/Model/model",
+                        "component": "/Model/model"
+                    }
+                ]
             },
             {
                 "id": "4",
@@ -169,6 +178,16 @@
                 "icon": "PieChart",
                 "path": "/other/data",
                 "component": "/other/page-data"
+            }
+        ],
+        "model": [
+            {
+                "id": "4-1",
+                "label": "模型细节",
+                "name": "modeldetail",
+                "icon": "",
+                "path": "/Model/modeldetail",
+                "component": "/Model/modeldetail"
             }
         ]
     }

@@ -153,6 +153,8 @@ const routesProcess = (routes) => {
     // 遍历其他零碎页面路由部分
     loopRoutes(routesAll, routes.pages)
 
+    loopRoutes(routesAll, routes.model)
+
     // 添加系统内置的静态路由部分到系统所有路由
     // Why? 为什么要添加静态页面部分，如果不添加，用户就没有权限访问/404,/welcome的权限
     routesAll.push({

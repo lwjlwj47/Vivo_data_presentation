@@ -163,6 +163,15 @@
                 "path": "/other/charts",
                 "component": "/other/page-chart"
             }
+        ],
+        "model": [
+            {
+                "id": "4-1",
+                "label": "模型细节",
+                "icon": "",
+                "path": "/Model/modeldetail",
+                "component": "/Model/modeldetail"
+            }
         ]
     }
 }

@@ -20,7 +20,10 @@ console.log(JSON.parse(model.arguments))
   </div>
   <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
     <el-tab-pane label="模型介绍" name="first"><modelintroduction :propDate="JSON.parse(model.arguments)"></modelintroduction></el-tab-pane>
-    <el-tab-pane label="代码" name="second">Config</el-tab-pane>
+    <el-tab-pane label="代码" name="second">这里是模型代码<br>展示模型的代码</el-tab-pane>
+    <el-tab-pane label="在线测试" name="third">这里是模型在线测试<br>在此模块中，我们可以选择我们想要的数据集输入至后端，获取后端返回结果</el-tab-pane>
+    <el-tab-pane label="在线持续训练" name="fourth">这里是模型持续训练<br>在次模块中，我们可以输入最新的训练集数据对模型进行进一步训练</el-tab-pane>
+    <el-tab-pane label="讨论" name="fifth">这里是模型相关讨论</el-tab-pane>
   </el-tabs>
 </el-card>
 </template>

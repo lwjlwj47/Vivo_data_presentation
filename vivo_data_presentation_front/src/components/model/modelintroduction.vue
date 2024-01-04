@@ -16,6 +16,13 @@ const Myarguments = props.propDate
   <li v-for="argument in Myarguments" class="list">
   <span class="argumentname">{{argument.argument}}:</span><span>{{argument.desriber}}</span>
   </li>
+  <el-divider />
+  <div class = "top-name">
+    模型输出
+  </div>
+  <div class="name">
+    模型输出的类型格式
+  </div>
 </template>
 
 <style scoped>

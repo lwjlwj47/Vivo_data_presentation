@@ -176,6 +176,13 @@
                         "icon": "Edit",
                         "path": "/Model/datesum",
                         "component": "/Model/datasum"
+                    },
+                    {
+                        "id": "3-3-1",
+                        "label": "测试",
+                        "icon": "Edit",
+                        "path": "/Model/datesum",
+                        "component": "/Model/test"
                     }
                 ]
             },

@@ -118,7 +118,7 @@ const goTo = (path) => router.push(path)
 <style scoped>
 .vel_menu {
     height: 100vh;
-    float: left;
+    position: fixed;
     transition: width .5s;
 }
 

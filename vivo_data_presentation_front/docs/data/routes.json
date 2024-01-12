@@ -172,6 +172,15 @@
                 "path": "/Model/modeldetail",
                 "component": "/Model/modeldetail"
             }
+        ],
+        "dataset": [
+            {
+                "id": "5-1",
+                "label": "模型细节",
+                "icon": "",
+                "path": "/Datasets/Datadetail",
+                "component": "/Datasets/Datadetail"
+            }
         ]
     }
 }

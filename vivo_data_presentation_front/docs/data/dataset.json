@@ -1,0 +1,73 @@
+{
+  "model": [
+    {
+      "name": "舆情反馈-高中低系列",
+      "description": "约26万条",
+      "url": "https://58.87.88.28/s/ojuL",
+      "arguments": [
+        {
+          "argument": "参数1",
+          "desriber": "描述1"
+        },
+        {
+          "argument": "参数2",
+          "desriber": "描述2"
+        },
+        {
+          "argument": "参数3",
+          "desriber": "描述3"
+        },
+        {
+          "argument": "参数4",
+          "desriber": "描述4"
+        }
+      ]
+    },
+    {
+      "name": "售后反馈-高中低系列",
+      "description": "约30万条",
+      "url": "https://58.87.88.28/s/p2CN",
+      "arguments": [
+        {
+          "argument": "参数1",
+          "desriber": "描述1"
+        },
+        {
+          "argument": "参数2",
+          "desriber": "描述2"
+        },
+        {
+          "argument": "参数3",
+          "desriber": "描述3"
+        },
+        {
+          "argument": "参数4",
+          "desriber": "描述4"
+        }
+      ]
+    },
+    {
+      "name": "人群作战地图",
+      "description": "第一阶段研究报告",
+      "url": "https://58.87.88.28/s/q2FP",
+      "arguments": [
+        {
+          "argument": "参数1",
+          "desriber": "描述1"
+        },
+        {
+          "argument": "参数2",
+          "desriber": "描述2"
+        },
+        {
+          "argument": "参数3",
+          "desriber": "描述3"
+        },
+        {
+          "argument": "参数4",
+          "desriber": "描述4"
+        }
+      ]
+    }
+  ]
+}

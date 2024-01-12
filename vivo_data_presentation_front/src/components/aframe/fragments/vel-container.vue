@@ -23,7 +23,7 @@ const containerPaddingLeft = computed(() => collapseStateStore.collapseState ? '
 <style scoped>
 .vel_container {
     //height: 100vh;
-    height: auto;
+    //height: auto;
     background-color: #f6f8f9;
     transition: padding-left .5s;
 }

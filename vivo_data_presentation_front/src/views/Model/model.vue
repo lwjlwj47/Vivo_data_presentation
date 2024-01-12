@@ -14,7 +14,10 @@ const gotodetail = (model) => {
     query:{
       name:model.name,
       description:model.description,
-      arguments:JSON.stringify(model.arguments)
+      descriptions:model.descriptions,
+      arguments:JSON.stringify(model.arguments),
+      outputs:JSON.stringify(model.outputs),
+      datasum:JSON.stringify(model.datasum)
     }
   })
 }

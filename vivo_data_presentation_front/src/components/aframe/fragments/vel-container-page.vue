@@ -31,7 +31,7 @@ const includes = computed(() => {
 <style scoped>
 .vel_container_page {
     //height: calc(100vh - 90px);
-  height: auto;
+  //height: auto;
 
 }
 </style>

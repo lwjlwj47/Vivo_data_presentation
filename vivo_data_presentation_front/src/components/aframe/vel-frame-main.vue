@@ -91,6 +91,6 @@ const documentWHRecord = () => {
 <style scoped>
 .vel_frame_main {
   //height: 100vh;
-  height: auto;
+  //height: auto;
 }
 </style>
